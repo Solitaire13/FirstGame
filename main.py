@@ -19,14 +19,3 @@ else:
   print("The Game Gods have deemed you too young to play...")
 
 
-
-
-
-
-
-'''
-string "hello", 'hi', "89"
-int 8, 7, -9, 1000
-float 8.1, 7.653, -9.35, 1000.0
-bool True, False
-'''
