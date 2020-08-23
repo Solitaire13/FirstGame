@@ -24,22 +24,19 @@ if age >= 7:
            elif ans == "right":
               print("You find a that it's a short walk to a door which leads to a fresh and breezy copse of pines on a well used path outside of what appears to be a cave")
            ans == input("As you take in the fresh air you notice a small cabin set back in the pines and a small dock on a river. Which do you go to?...(cabin or river)")
+             
            if ans == "cabin":
               print("As you approach the cabin you smell a strong scent of heavily spiced mystery meat and fresh tomatoes. Over the entrance is a Bell shaped like a Taco. The owner of the cabin offers you lunch which you gladly accept. Ten minutes later you are lying on the ground and lose 8 health because of explosive diarrhea!!!")
               health -= 8
-
-              if health <= 0:
-                print("Who knew that a plate of Nachos Bell Grande would be your undoing!?!?! You have died and your soul is now banished to the Bog of Eternal Stench....")
-              else:
-                print("Not too bad for your first day no0b but don't let it go to your head....")  
-
-           else:
+           elif ans == "river":
              print("You carefully make you way onto the rickety old dock and look around. You notice that there is a small wooden raft attached to a rope that crosses the river and a dugout canoe with a paddle. While trying to decide what to do you notice how hungry you are. You lose 1 health.")  
-             health -= 1 
-
+             health -= 1
+              
+             if health <= 0:
+                print("Who knew that a plate of Nachos Bell Grande would be your undoing!?!?! You have died and your soul is now banished to the Bog of Eternal Stench....")
              if health >= 0:
-                print("Not too bad for your first day no0b but next time get your mom to make us a sammich and juice box will ya..")   
-
+                print("Not too bad for your first day no0b but next time get your mom to make us a sammich and juice box will ya..")
+       
        else:
           print("You turn to the right and immediately walk into the web of a giant spider....I guess somebody is going to have a nice meal (and it isn't you). Sorry spider bait.")
 
